@@ -44,7 +44,7 @@
 	</root>
 	<!-- 指定项目中某个包，当有日志操作行为时的，日志记录级别 -->
 	<!-- 级别以此为： -->
-	<logger name="com.appleyk" level="error">
+	<logger name="com.apple" level="error">
 		<appender-ref ref="baselog" />
 	</logger>
 </configuration>  

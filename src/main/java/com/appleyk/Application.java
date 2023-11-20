@@ -1,4 +1,4 @@
-package java.com.appleyk;
+package com.appleyk;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
