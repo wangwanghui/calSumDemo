@@ -3,6 +3,9 @@ server:
 spring:
   messages:
     basename: i18n/messages
+#日志配置
+logging:
+  config: classpath:logback-spring.xml
 #  #mogodb 配置
 #  data:
 #    mongodb:
