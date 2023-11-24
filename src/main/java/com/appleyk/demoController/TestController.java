@@ -14,6 +14,6 @@ public class TestController {
     @GetMapping("/jenkins")
     @ResponseBody
     public String getHello(){
-        return "HELLO-JENKINS SUCCESS";
+        return "HELLO-JENKINS-docker SUCCESS";
     }
 }
