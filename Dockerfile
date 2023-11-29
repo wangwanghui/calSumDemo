@@ -1,5 +1,5 @@
 # 该镜像需要依赖的基础镜像
-FROM java:11
+FROM openjdk:11
 # 指定维护者的名字
 MAINTAINER wang
 VOLUME /tmp
