@@ -11,4 +11,4 @@ ADD ./target/appleyk-0.0.1-SNAPSHOT.war /docker-project/appleyk-0.0.1-SNAPSHOT.j
 
 expose 8099
 # 指定docker容器启动时运行jar包
-ENTRYPOINT ["java","-jar","/appleyk-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/docker-project/appleyk-0.0.1-SNAPSHOT.jar"]
